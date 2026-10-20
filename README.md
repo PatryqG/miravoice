@@ -145,3 +145,8 @@ Bez backendu zmiany wyglądu i treści są widoczne wyłącznie na urządzeniu, 
 React 19, Vite 7, TypeScript, Tailwind CSS 4, własne zmienne CSS, dane lokalne w `localStorage`, PWA (manifest + service worker). Motywy: zielono-biały z teksturami i akcentami graffiti.
 
 Projekt niezależny, fanowski. Nie jest powiązany z oficjalnymi właścicielami marki Miraculous.
+
+
+## APK z GitHuba
+
+W repozytorium jest workflow `.github/workflows/build-apk.yml`. Po wypchnięciu plików na GitHub wejdź w **Actions → Build MiraVoice APK → Run workflow** (albo poczekaj na automatyczny build po pushu). Po zakończeniu wybierz wykonanie workflow i pobierz artefakt **MiraVoice-APK**. W ZIP-ie będzie `app-debug.apk`. To testowy APK do ręcznej instalacji, nie podpisana wersja do Google Play.
